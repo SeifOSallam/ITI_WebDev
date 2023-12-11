@@ -1,0 +1,19 @@
+#emailbox {
+    border-radius: 4px;
+    border: 1px solid gray;
+    width: 300px;
+    padding: 10px;
+}
+p {
+    color:gray;
+}
+#agree {
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    color:white;
+    background-color: blue;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 50px;
+}

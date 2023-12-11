@@ -1,0 +1,19 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(../Montserrat/static/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: Montserrat;
+    src: url(../Montserrat/static/Montserrat-Bold.ttf);
+}
+* {
+    font-family: Montserrat;
+}
+
+.box {
+    text-align: center;
+}
+#undlined {
+    text-decoration: underline;
+    font-weight: normal;
+}
