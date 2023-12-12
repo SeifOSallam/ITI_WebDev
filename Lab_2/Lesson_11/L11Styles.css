@@ -1,0 +1,117 @@
+#a11grid {
+    display:grid;
+    grid-template-columns: 200px 75px;
+    height:30px;
+    width:275px;
+}
+#a11col1 {
+    background-color: blue;
+}
+#a11col2 {
+    background-color: red;
+}
+#b11grid {
+    margin-top: 100px;
+    border:1px solid black;
+    height: 30px;
+    display:grid;
+    width: 175px;
+    grid-template-columns: 50px 50px;
+    column-gap: 75px;
+}
+#b11col1 {
+    background-color: blue;
+}
+#b11col2 {
+    background-color: red;
+}
+
+#c11grid {
+    border: 1px solid black;
+    display:grid;
+    column-gap: 20px;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 50px;
+    height:200px;
+}
+#c11col1 {
+    display:grid;
+    row-gap: 10px;
+}
+#c11row1 , #c11row2 {
+    background-color: brown;
+}
+#c11col2 {
+    display:grid;
+    row-gap: 10px;
+}
+#c11row3 , #c11row4 {
+    background-color: brown;
+}
+#c11col3 {
+    display:grid;
+    row-gap: 10px;
+}
+#c11row5 , #c11row6 {
+    background-color: brown;
+}
+#c11col4 {
+    display:grid;
+    row-gap: 10px;
+}
+#c11row7 , #c11row8 {
+    background-color: brown;
+}
+
+.d11box {
+    box-shadow: 0px 0px 15px -5px black;
+    width: 300px;
+    height: 400px;
+    display:flex;
+    flex-direction: column;
+}
+#d11img {
+    height: 70%;
+}
+.d11botbox {
+    padding:10px;
+    display:grid;
+    grid-template-rows: auto auto auto;
+}
+#d11name {
+    font-weight: bold;
+    font-size: large;
+    
+}
+#d11friends {
+    color: gray;
+}
+#d11add {
+    width: 130px;
+    padding: 10px;
+    background-color: rgb(77, 77, 240);
+    color: white;
+    border-radius: 4px;
+    border:none;
+    font-size: large;
+    font-weight: bold;
+}
+.d11grid {
+    display:grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    column-gap: 100px;
+}
+
+.d11doggo {
+    width:30px;
+    height: 30px;
+    border-radius: 50px;
+    float:left;
+}
+
+.d11botbox > span {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
