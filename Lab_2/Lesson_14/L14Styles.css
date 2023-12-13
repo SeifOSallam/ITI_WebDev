@@ -1,6 +1,7 @@
 * {
     padding: 0px;
     margin: 0px;
+    font-family: sans-serif;
 }
 body {
     height: 3000px;
@@ -43,6 +44,7 @@ body {
     grid-template-rows: auto auto auto;
     align-items: center;
     font-family: sans-serif;
+    border-radius: 8px;
 }
 .d14modal > button {
     width: fit-content;
@@ -50,4 +52,96 @@ body {
     padding: 3px 5px;
     font-weight: bold;
 
+}
+
+.e14header {
+    position: fixed;
+    width: 700px;
+    display:flex;
+    justify-content: space-between;
+    padding: 15px 35px;
+    font-family: sans-serif;
+}
+.e14headerleft {
+    display:flex;
+    align-items: center;
+}
+.e14img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+}
+.e14name {
+    margin-left: 20px;
+    font-weight: bold;
+}
+.e14headerright {
+    display:flex;
+    align-items: center;
+    
+}
+.e14add {
+    margin-right: 20px;
+    padding: 15px;
+    background-color: rgb(0, 102, 255);
+    color: white;
+    border:none;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 16px;   
+}
+.e14msg {
+    padding: 15px 22px;
+    background-color:rgb(172, 170, 170);
+    color: black;
+    border:none;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.f14wholebar {
+    height: 100%;
+    display:flex;
+    position: fixed;
+}
+.f14leftbar {
+    padding: 15px;
+    display:flex;
+    flex-direction: column;
+    background-color: rgb(53, 52, 52);
+}
+.f14img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+.f14rightbar {
+    display:flex;
+    background-color: rgb(75, 71, 71);
+}
+.f14infobar {
+    display:flex;
+    flex-direction: column;
+    background-color: rgb(68, 62, 62);
+    height:fit-content;
+    color:gray;
+}   
+.f14info {
+    padding: 20px;
+    color:white;
+    font-weight: bold;
+}
+.f14infolist {
+    padding: 0px 15px 15px 15px;
+    margin-left: 5px;
+}
+.f14infolist > p {
+    margin-top: 10px;
+}
+.f14plus {
+    padding: 20px;
+    font-weight: bold;
+    color:gray;
 }
