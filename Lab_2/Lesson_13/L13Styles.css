@@ -1,0 +1,199 @@
+.a13box {
+    display:flex;
+    height: 50px;
+}
+.a13leftbox {
+    width: 100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: palevioletred;
+}
+.a13rightbox {
+    width: 200px;
+    background-color: aqua;
+}
+.a13item1 {
+    background-color: black;
+    color:white;
+}
+.b13box {
+    display:flex;
+    height: 50px;
+}
+.b13leftbox {
+    width: 100px;
+    background-color: palevioletred;
+}
+.b13rightbox {
+    width: 200px;
+    background-color: aqua;
+    display:flex;
+    flex-direction: column;
+}
+.b13row1 {
+    color:black;
+    width:fit-content;
+}
+.b13row2 {
+    background-color: black;
+    color:white;
+    width:fit-content;
+}
+
+.c13box {
+    padding: 15px 20px;
+    border:none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px -3px black;
+    width: 500px;
+    height: 150px;
+    display:flex;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+.c13inboxes {
+    color: gray;
+}
+.c13boxcontent {
+    display:flex;
+    align-items: center;
+    width:100%;
+}
+
+.c13img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    float:left;
+    
+}
+.c13rightboxcontent {
+    display:flex;
+    flex-direction: column;
+    margin:20px 0px 20px 10px;
+    flex:1;
+}
+.c13rightboxcontent > span:not(:first-child) {
+    margin-top: 5px;
+}
+.c13promdate {
+    display:flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+.c13user {
+    font-weight: bold;
+}
+.c13time {
+    color:gray;
+}
+.c13promname {
+    font-weight: bold;
+}
+.c13subject {
+    color:gray;
+}
+
+
+.d13box {
+    padding: 15px 20px;
+    border:none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px -3px black;
+    width: 500px;
+    display:flex;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+.d13inboxes {
+    color: gray;
+}
+.d13boxcontent {
+    display:flex;
+    align-items: center;
+    width:100%;
+}
+
+.d13img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    float:left;
+    
+}
+.d13rightboxcontent {
+    display:flex;
+    flex-direction: column;
+    margin:20px 0px 20px 10px;
+    flex:1;
+}
+.d13rightboxcontent > span:not(:first-child) {
+    margin-top: 5px;
+}
+.d13promdate {
+    display:flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+.d13user {
+    font-weight: bold;
+}
+.d13time {
+    color:gray;
+}
+.d13promname {
+    font-weight: bold;
+}
+.d13subject {
+    color:gray;
+}
+
+
+
+.f13tweetbody {
+    display:flex;
+    width:500px;
+    line-height: 25px;
+}
+
+.f13rightbody {
+    display:flex;
+    flex-direction: column;
+    margin-left:20px;
+}
+.f13tweetpic {
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+}
+.f13uname {
+    color:black;
+    font-weight: bold;
+}   
+.f13email {
+    color:gray;
+}
+
+.f13linkbox {
+    border-radius: 10px;
+    border: 3px solid gray;
+    width:400px;
+    margin-left:100px;
+    height:100px;
+    display:flex;
+}
+.f13leftlinkbox {
+    background-color: gray;
+    width:50%;
+    height:100%;
+    border-radius: 6px 0px 0px 6px;
+}
+.f13rightlinkbox {
+    padding: 20px 10px;
+    line-height: 20px;
+}
+.f13linksite {
+    color: gray;
+}
+
